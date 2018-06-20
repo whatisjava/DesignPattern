@@ -20,6 +20,14 @@ public class TestObserver {
 
         System.out.println("=============================");
 
+        teacher.setInfo("测试题3");
+        teacher.addObserver(jack);
+        teacher.deleteObserver(mark);
+        teacher.notifyObserver();
+
+        System.out.println("=============================");
+
+        teacher.setInfo("测试题4");
         teacher.addObserver(jack);
         teacher.notifyObserver();
     }
