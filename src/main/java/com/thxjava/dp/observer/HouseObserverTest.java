@@ -5,9 +5,9 @@ public class HouseObserverTest {
     public static void main(String[] args) {
         House house = new House(10000);
 
-        HousePriceObserver observer1 = new HousePriceObserver("购房者A");
-        HousePriceObserver observer2 = new HousePriceObserver("购房者B");
-        HousePriceObserver observer3 = new HousePriceObserver("购房者C");
+        HouseObserver observer1 = new HouseObserver("购房者A");
+        HouseObserver observer2 = new HouseObserver("购房者B");
+        HouseObserver observer3 = new HouseObserver("购房者C");
 
         house.addObserver(observer1);
         house.addObserver(observer2);

@@ -4,12 +4,12 @@ import java.util.Observable;
 import java.util.Observer;
 
 // 观察者
-public class HousePriceObserver implements Observer {
+public class HouseObserver implements Observer {
 
-    private String name;
+    private String name; // 观察者的名字
 
-    public HousePriceObserver(String name){
-        this.name = name;
+    public HouseObserver(String name){
+        this.name = name; // 设置每一个购房者的名字
     }
 
     public void update(Observable o, Object arg) {
