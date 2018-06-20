@@ -27,7 +27,9 @@
 
 ObserverPatternDemo，我们的演示类使用 Subject 和实体类对象来演示观察者模式。
 
+![observer pattern uml diagram](./observer_pattern_uml_diagram.jpg)
 观察者模式的 UML 图
+
 步骤 1
 创建 Subject 类。
 Subject.java
